@@ -1,0 +1,32 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*api_key*
+*token*
+*.pem
+*.key
+credentials/
+secrets/
+
+# Patient and restricted records
+patient_data/
+clinical_raw/
+raw_patient_data/
+private/
+confidential/
+*.dcm
+
+# Source materials and large outputs
+manuscripts_full/
+media_raw/
+rendered_video/
+*.mp4
+*.mov
+
+# Local execution state
+__pycache__/
+.pytest_cache/
+.venv/
+node_modules/
+.DS_Store
